@@ -75,6 +75,8 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
+    color: #000000;
   }
   
   /**
@@ -353,5 +355,6 @@
   }
 
   ul {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
   }
